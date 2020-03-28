@@ -10,35 +10,31 @@
 
 %---------------------------------------------------------
   \cventry
-    {Backend Developer} % Job title
-    {Nowfloats} % Organization
-    {Hyderabad} % Location
-    {June 2016 - PRESENT} % Date
+    {SENIOR ARTIFICIAL INTELLIGENCE ENGINEER} % Job title
+    {Razorthink} % Organization
+    {Bengaluru} % Location
+    {Sept 2018 - PRESENT} % Date
     {
-      \begin{cvitems} % Description(s) of tasks/responsibilities
-        \item {One of the lead developers of NFX. This api project syncs merchant updates, reviews across social channels like facebook, linkedin, twitter, quikr and also creates their online presence on other listing channels generating ROI. NFX has total 19,000 customers and handles around 50,000 updates on a weekly basis. Made REST APIs, services, lambda functions, cron jobs and deployement on ECS. Technologies Used: Python, NodeJs, ECS, Docker, Lambda, Express, MongoDB, Route 53, Ubuntu, SQS, Python}
-        \item {Lead developer of WMT. A tool which gives all the functions provided in adwords and facebook ad manager for running inorganic ads for merchants. Developed all the REST Apis, Architecture, Dashboard and Micro Services. Technologies Ued: C\#, .Net, IIS, EC2, MongoDb, Rest Api, Javascript, HTML5, Bootstrap, Python, jquery}
-        \item {Developed Wildfire Acquisition Service. It finds potential customers for buying our product who are then targeted to generate revenue. Achieved a high conversion rate of 20 per cent. Used Machine Learning(Logistic Regression) and Pearson Correlation to train the classifier on previous data. Technologies Used: Python, Scikit Learn, Pandas, Matplotlib, MongoDB, MySql  }
-        \item {Lead developer of Nowfloats Links Health Service. It recursively crawls all the links present in websites of customers and checks their health. Unhealthy Links (404, 502, etc.) are reported and removed later. Technologies Used: Python, Scrapy, MongoDB, SQS  }
-        \item {Developed Update Categorization Service. It fetches all the product updates made by the customers on their websites and then categorizes them into offers, discounts, price. Applied a bag of keywords model to classify the updates into categories. Technologies Used: Python, Scikit Learn, Pandas, Matplotlib, MongoDB  }
-      \end{cvitems}
+      \begin{cvitems} % Description(s) of tasks/responsibilities	
+        \item{Question Answering : This service is used to answer question asked by the end user, using the data provided by the user as a pdf or html document. Did topic modeling using latent dirichlet allocation, this generated topics with word probabilities. Applied a word2vec model on top of it to generate topic vectors for each topic in pdf. Ranking of topics was done by using these topic vectors, these topics were then fed to Bert model for getting answer. Technologies Used: python, nltk, gensim, tqdm}        
+        \item{Table Detection : This service is used to detect tables (bordered and borderless) or table like structures in a pdf document. Built and trained a deep learning model for detecting tables. This was built using Faster Rcnn(research paper) and curriculum learning. Pretrained VGG16 net was fine tuned on our documents to achieve a precision of 84 percent.  Technologies Used: python, tensorflow, opencv}        
+        \item{Template Detection : This service assigns templates to various documents, two documents belong to the same template if they have similar type of text or structure. Built and trained a siamese network with pretrained VGG16 net to detect whether two images are similar or not. If the first page of two different documents were detected to be similar by the siamese network, they were mapped to the same template in the database. Technologies Used: python, tensorflow, opencv, MongoDb}        
+        \item{Carigans : Built a carigan service that converts images of real people to caricatures on the AI Platform of our company. This service was based on a research paper by Microsoft. It makes use of Generative Adversarial networks along with facial recognition to generate cartoon like faces. Gave a presentation on the same (https://www.youtube.com/watch?v=JeWbg83HZes). Technologies Used: python, tensorflow, opencv, scikit-learn}     
+	\end{cvitems}
     }
-
-%---------------------------------------------------------
-
-%---------------------------------------------------------
 
 %---------------------------------------------------------
   \cventry
-    {Data Science} % Job title
-    {Open Source Projects} % Organization
+    {Data Scientist} % Job title
+    {Nowfloats} % Organization
     {Hyderabad} % Location
-    {Dec 2017 - PRESENT} % Date
+    {June 2016 - Sept 2018} % Date
     {
       \begin{cvitems} % Description(s) of tasks/responsibilities
-        \item {KickStarter-Sucess: This project determines whether a KickStarter project would be successfull or not. Applied a neural network classifier for classification. Github Url: https://github.com/kartikwar/KickStarter-Sucess} 
-        \item {Survivors of Titanic: This project determines what groups of people are more likely to survive the sinking of Titanic. Applied KNN, Random Forest Classifier, Adaboost Classifier, Gradient Boost Classifier, SVM on generated features. Combined all the predictions made by these classifiers and applied a XGBoostClassifier for more precise classification. Github Url: https://github.com/kartikwar/Survivors-of-Titanic} 
-        \item {Digit Recognition:  This project classifies hand drawn digits into actual numbers. The original dataset had 784 features (pixels of images). Applied PCA and neural network on the generated features. Github Url: https://github.com/kartikwar/Digit-Recognition}      
-	\end{cvitems}
+        \item {Developed Wildfire Acquisition Service. It finds potential customers for buying our product who are then targeted to generate revenue. Achieved a high conversion rate of 20 per cent. Used Machine Learning(Logistic Regression) and Pearson Correlation to train the classifier on previous data. Technologies Used: Python, Scikit Learn, Pandas, Matplotlib, MongoDB, MySql  }
+        \item {Developed Update Categorization Service. It fetches all the product updates made by the customers on their websites and then categorizes them into offers, discounts, price. Applied a bag of keywords model to classify the updates into categories. Technologies Used: Python, Scikit Learn, Pandas, Matplotlib, MongoDB  }
+        \item {One of the lead developers of NFX. This api project syncs merchant updates, reviews across social channels like facebook, linkedin, twitter, quikr and also creates their online presence on other listing channels generating ROI. NFX has total 19,000 customers and handles around 50,000 updates on a weekly basis. Made REST APIs, services, lambda functions, cron jobs and deployement on ECS. Technologies Used: Python, NodeJs, ECS, Docker, Lambda, Express, MongoDB, Route 53, Ubuntu, SQS, Python}
+      \end{cvitems}
     }
+
 \end{cventries}
