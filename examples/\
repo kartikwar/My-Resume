@@ -22,11 +22,12 @@
 
 %---------------------------------------------------------
 
+%---------------------------------------------------------
 
 %---------------------------------------------------------
   \cventry
     {Software Engineer} % Job title
-    {AdeptPros IT. Sol. Pvt. Ltd.} % Organization
+    {AdeptPros IT.Sol. Pvt. Ltd.} % Organization
     {Bengaluru} % Location
     {Jan 2019 - Oct 2019} % Date
     {
@@ -34,25 +35,4 @@
         \item {Data Manager (Web reporting): Reports comparision for the client Riverside Insights using Serenity BDD with Cucumber. Technologies Used: BDD Serenity, Cucumber, Java} 
 	\end{cvitems}
     }
-
-
-%---------------------------------------------------------
-
-%---------------------------------------------------------
-  \cventry
-    {Project Engineer} % Job title
-    {WIPRO Technologies} % Organization
-    {Hyderabad} % Location
-    {May 2015 - Dec 2019} % Date
-    {
-      \begin{cvitems} % Description(s) of tasks/responsibilities
-      \item {WJIV (Online Scoring \& Reporting): this was an application for scoring and reporting for the international client HMH. Performed automation testing with selenium and Java using Maven, Apache POI, POM \& TestNG . Technologies Used: Selenium, Java, Maven, Apache POI, POM \& TestNG. } 
-      \item {Application Support: provided Application Support to the international client SHELL/FEDEX for an application (based on SQL, Java, SME, NSTO, NextGen) . Technologies Used: Java, SQL} 
-	\end{cvitems}
-    }
-
-
-%---------------------------------------------------------
-
 \end{cventries}
-
